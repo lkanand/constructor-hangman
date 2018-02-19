@@ -3,9 +3,9 @@ var Letter = function(value) {
 	this.guessedYet = false;
 	this.returnCharacter = function() {
 		if(this.guessedYet === false)
-			return " _ ";
+			return "_ ";
 		else
-			return value;
+			return value + " ";
 	};
 	this.checkCharacter = function(guessedCharacter) {
 		if(guessedCharacter.toLowerCase() === this.value.toLowerCase())

@@ -100,7 +100,7 @@ function playRound() {
 				console.log("");
 				console.log("\x1b[32m%s\x1b[0m", "CORRECT!");
 				console.log("");
-				if(wordSelected.displayString().indexOf("_") > 0) {
+				if(wordSelected.displayString().indexOf("_") > -1) {
 					console.log("Incorrect letters guessed: " + JSON.stringify(guessedLettersIncorrect));
 					console.log("");
 				}
