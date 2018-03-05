@@ -1,4 +1,4 @@
-# Command Line Hangman Game
+# Command-Line Hangman Game
 This project utilizes node.js, JavaScript object constructors and the `inquirer` npm package to build a hangman game based on the command line.
 
 ## How to Play
